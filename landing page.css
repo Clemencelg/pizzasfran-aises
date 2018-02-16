@@ -1,0 +1,123 @@
+body{
+  font-family: 'Bad Script', cursive;
+  margin: 0;
+  font-weight: bold;
+
+}
+
+#background {
+      background: url(images/flour.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height:700px ;
+   position: relative;  
+}
+
+#description {
+ text-shadow: 1px 1px 1px black; 
+ color: white;
+ position: absolute;
+ top: 60%; left: 50%;
+ transform: translate(-50%, -50%); 
+}
+
+.btn{
+ border:1px solid #e4656c;
+ border-radius: 5px;
+ padding: 6px 10px;
+ text-decoration: none;
+ color: white ;
+ transition: all 300ms ease;
+ text-align: center;
+ font-size: 28px;
+ margin: 150px;
+ background-color: #dd444c 
+}
+
+.btn:hover{
+ background-color: #db2932 ;
+ color: white;
+ font-size: 29px;
+ text-decoration: none;
+}
+
+.btn2 {
+  margin: 50px;
+}
+
+
+.images{
+   border-radius: 3px;
+}
+
+#recettes{
+   font-family: 'Bad Script', cursive;
+   font-size: 75px;
+   margin-top: 75px;
+   margin: 50px;
+
+}
+
+#footer{
+   font-size: 40px;
+   text-decoration: : none;
+}
+
+p{
+   color: rgb(100,100,100);
+   font-family: 'Cardo';
+}
+
+
+
+.cadre{
+  border: 1px solid grey;
+  border-radius: 3px;
+  margin-bottom: 150px;
+}
+
+
+.prix{
+   font-family: 'Cardo';
+}
+
+.pizza{
+   font-family: 'Cardo';
+   font-weight: bold;
+}
+
+#accroche{
+   font-size: 25px ;
+   text-decoration: underline ; 
+   margin-bottom: 30px
+}
+
+#lastbackground {
+      background: url(images/commandez.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height:340px ;
+   position:   relative; 
+} 
+
+#description2 {
+ color: white;
+ position: absolute;
+ top: 50%; left: 50%;
+ transform: translate(-50%, -50%);
+ text-shadow: 1px 1px 1px black; 
+} 
+
+#noustrouver{
+    padding-top: 100px;
+    font-family: 'Bad Script', cursive;
+    font-size: 75px;
+}
+
+#maps{
+    padding-top: 25px;
+}
